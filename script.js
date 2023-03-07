@@ -11,11 +11,9 @@
 // let Name = "shreyash"
 // console.log(Name.toUpperCase())
 
-// store input numbers
 const num1 = parseInt(prompt('Enter the first number '));
 const num2 = parseInt(prompt('Enter the second number '));
 
-//add two numbers
 const add = num1 + num2;
 const sub = num1 - num2;
 const mul = num1 * num2;
@@ -23,9 +21,6 @@ const div = num1 / num2;
 const mod = num1 % num2;
 
 
-
-
-// display the sum
 console.log(`The addition of ${num1} and ${num2} is ${add}`);
 console.log(`The substraction of ${num1} and ${num2} is ${sub}`);
 console.log(`The multiplication of ${num1} and ${num2} is ${mul}`);
